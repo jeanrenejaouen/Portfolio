@@ -1,0 +1,83 @@
+.header {	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 30px;
+	/* background-color: cadetblue; */
+	background-color: white;
+	    
+    /* width: 98%;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 10px 40px 10px 10px;
+    background-color: cadetblue; */
+
+	
+	@media (width <= 768px) {		
+			margin: 35px;
+		}
+	@media (width <= 450px) {		
+			margin: 20px;
+		}
+	&-photoProfil-name {
+		display: flex;
+		align-items: center;
+		gap: 50px;
+	}	
+	&-photoProfil {
+		width: 80.76px;
+	}
+	&-name {
+		font-weight: 700;
+		font-size: 24px;
+		color: black;
+	}
+	&-content a {
+		text-decoration: none;
+	}
+	img {
+		/* height: 68px; */
+        border-radius: 50px;
+		@media (width <= 768px) {		
+			height: 130px;
+		}
+		@media (width <= 450px) {		
+			height: 100px;
+		}
+	}
+	.nav {
+		display: flex;
+		flex-direction: row;
+		list-style: none;
+		gap: 30px;
+		@media (width <= 768px) {		
+			gap: 20px;
+		}
+		@media (width <= 450px) {		
+			gap: 20px;	
+		}
+		a {			
+			text-decoration: none;			
+			color: #000000;
+			font-size: 18px;
+			cursor: pointer;			
+			@media (width <= 768px) {		
+				font-size: 18px;
+			}
+			@media (width <= 450px) {		
+				font-size: 12px;	
+			}					
+		}
+		a:active {						
+			border-bottom: 1px solid #000000;			
+		}
+		a:hover {
+			color: blue;
+		}
+	}
+}

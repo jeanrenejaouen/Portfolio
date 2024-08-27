@@ -1,0 +1,408 @@
+[
+	{
+		"id": "c67ab8a7",
+		"title": "Rinding cities",
+		"subtitle": "Association sportive qui promeut le skate",
+		"cover": "https://www.neoglisse.fr/wp-content/uploads/2023/07/max-tarkhov-NG4684I8Bng-unsplash-min-1024x819.jpg",		
+		"description": "Mise à jour de la page Internet de Riding Cities, une association sportive qui promeut le skate. ",		
+		"context": "Ce projet est une introduction aux fondamentaux du langage HTML. Le but est de mettre à jour la page web d’une association, en intégrant de nouveaux éléments conformément aux maquettes fournies.",
+		"skillsAssessed": ["Intégrer des éléments sur une page web en utilisant les fondamentaux de HTML"],
+		"skills": [
+			"HTML5",
+			"CSS3"
+		],		
+		"assignments": [
+			"Créer une nouvelle section, 'Les membres fondateurs', contenant du texte et des images en colonnes avec les noms et photos des créateurs de l’association.",
+			"Modifier la section comprenant le bouton “Télécharger le planning de cours” pour ajouter un titre et deux boutons permettant de télécharger deux plannings de cours différents (un pour les enfants et un pour les adultes).",
+			"Rattacher les plannings de cours pour enfants et pour adultes aux boutons de téléchargement."
+		],
+		"ressources": [
+			"Mettre en place votre environnement. ",
+			"Créer votre site web avec HTML5 et CSS3"
+		],
+		"website": "https://jeanrenejaouen.github.io/Riding-cities/",
+		"github": "https://github.com/jeanrenejaouen/Riding-cities",
+		"pdf": "https://jeanrenejaouen.github.io/Riding-cities/Plannings.pdf",
+		"pdfName": "Plannings"		
+	},
+
+	{
+		"id": "c67ab8a8",
+		"title": "Booki",
+		"subtitle": "Trouver des hébergements et des activités dans la ville de son choix.",
+		"cover": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/images/booki.png",		
+		"description": "Développer le site internet de l’agence de voyage Booki permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix.  ",		
+		"context": "Dans ce projet, le but est de créer la page d'accueil d'une agence de voyage en utilisant HTML et CSS.",
+		"skillsAssessed": [
+			"Implémenter une interface responsive avec HTML et CSS. ",
+			" Installer un environnement de développement front-end. ",
+			" Intégrer du contenu conformément à une maquette avec HTML et CSS."
+		],
+		"skills": [
+			"HTML5",
+			"CSS3",
+			"Git",
+			"GitHub",
+			"VSCode",
+			"Figma"
+		],
+		"assignments": [
+			"Mettre en place votre environnement de développement : Visual Studio Code, Google Fonts et Font Awesome.",
+			"Découper la maquette représentant la structure du code HTML.",
+			"Intégrez le header du projet et utiliser Flexbox (ou Grid).",
+			"Ajouter le formulaire de recherche.",
+			"Ajout de la partie Filtres avec Flexbox",
+			"Réaliser une première « card » présente dans «Hébergements à Marseille » (utiliser une largeur d'image en “%” et la propriété object-fit)",
+			"Gérer l’affichage des “cards” du conteneur “Hébergements à Marseille” (utiliser Flexbox et une largeur d'image en “%”)",
+			"Intégrer le conteneur “Activités à Marseille”",
+			" Implémenter le footer avec Flexbox",
+			"Mettre en place le responsive design (respecter les deux media queries définies : 1024px pour l’affichage tablette et 768px pour l’affichage mobile) "
+		],
+		"ressources": [
+			"Mettez en place votre environnement front-end",
+			"Créer votre site web avec HTML5 et CSS3",
+			"Corrigez vos bugs et trouvez une solution à vos problèmes de code",
+			"Intégrez une maquette Figma en HTML / CSS",
+			"Créez une maquette pour le développement web",
+			"Créez une maquette web avec Figma "
+		],
+		"website": " https://jeanrenejaouen.github.io/Booki/",
+		"github": "https://github.com/jeanrenejaouen/Booki",
+		"pdf": "",
+		"pdfName": ""
+	},
+
+	{
+		"id": "c67ab8a9",
+		"title": "Ohmyfood",
+		"subtitle": "site web qui répertorie les menus de restaurants gastronomiques.",
+		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/Ohmyfood.png",		
+		"description": "Développer le site de la start-up Ohmyfood en “mobile first” qui répertorie les menus de restaurants gastronomiques.",				
+		"context": [
+			"J'avais en charge le développement d'un site “mobile first” qui répertorie les menus de restaurants gastronomiques. ",
+			"En plus des systèmes classiques de réservation, les clients peuvent composer le menu de leur repas pour que les plats soient prêts à leur arrivée.",
+			"L’équipe commerciale a déjà réussi à convaincre 4 restaurateurs d’utiliser la plateforme OhMyFood.",
+			"Le site contiendra 4 menus dans un premier temps."
+		],
+		"skillsAssessed": [
+			"Intégrer une maquette en mobile-first",
+			"Mettre en œuvre des animations CSS soignées",
+			"Versionner son projet avec Git et Github",
+			"Utiliser SASS pour le style"
+		],
+		"skills":  [
+			"HTML5",
+			"CSS3",
+			"Git",
+			"GitHub",
+			"VSCode",
+			"Figma"
+		],
+		"assignments": [
+			"Mettre en place l'environnement de développement.",
+			"Mettre le projet sur GitHub.",
+			"Créer une structure de projet contenant un dossier pour les assets, un dossier pour le SASS ou le CSS et un dossier pour les pages restaurants.",
+			"Intégrer la version mobile de la page d’accueil sans les animations.",
+			"Ajouter les animations à la page d’accueil.",
+			"Réaliser le responsive de la page d’accueil en identifiant des breakpoints standard afin d’éviter de multiplier les media queries.",
+			"Intégrer le code d’une page de restaurant et valider la page au W3C pour le HTML et le CSS.",
+			"Copier la page de restaurant et adapter le contenu aux restaurants restants dans tous les formats. "			
+		],
+		"ressources": [
+			"Les maquettes desktop et mobile du site Ohmyfood.",
+			" Le prototype du site via Figma incluant les animations et comportements à intégrer.",
+			"Les fichiers sources (images et textes)."			
+		],
+		"website": "https://jeanrenejaouen.github.io/Ohmyfood/",
+		"github": "https://github.com/jeanrenejaouen/Ohmyfood",
+		"pdf": "",
+		"pdfName": ""
+	},
+
+	{
+		"id": "c67ab8a10",
+		"title": "Print it !",
+		"subtitle": "Site web statique d’une petite imprimerie familiale.",
+		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/Printit.png",		
+		"description": "Dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it. ",		
+		"context": "J'avais en charge de dynamiser le site Internet statique de l'imprimerie Print it. Ce projet avait pour but de découvrir le langage JavaScript.",
+		"skillsAssessed": [			
+			"Programmer en utilisant les fondamentaux de JavaScript"
+		],
+		"skills":  [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Git",			
+			"GitHub",
+			"VSCode",
+			"Figma"
+		],
+		"assignments": [
+			"Mettre à jour le code HTML afin de pouvoir avoir un carrousel dynamique.",
+			"Ajouter des Event Listeners sur les flèches afin de pouvoir gérer le changement des images du carrousel.",
+			" Ajouter des bullet points au slider pour savoir sur quelle slide on se trouve.",
+			"Modifier le slide au clic sur le bouton (image + bullet point).",
+			"Mettre en place le défilement infini sur le carrousel."					
+		],
+		"ressources": [
+			"Créer votre site web avec HTML5 et CSS3",
+			"Apprendre à programmer avec JavaScrip",
+			"Découvrir le fonctionnement des algorithmes"			
+		],
+		"website": "https://jeanrenejaouen.github.io/Print-it-JS/",
+		"github": "https://github.com/jeanrenejaouen/Print-it-JS",
+		"pdf": "",
+		"pdfName": ""
+	},
+
+	{
+		"id": "c67ab8a11",
+		"title": "Sophie Buel - Architecte",
+		"subtitle": "Site portfolio d’une architecte d’intérieur.",
+		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/SophieBuel.png",		
+		"description": "Conception du site portfolio d’une architecte d’intérieur pour créer une page web dynamique avec Javascript.",		
+		"context": "Ma mission consistait à créer la page web dynamique avec Javascript du site portfolio d’une architecte d’intérieur.",
+		"skillsAssessed": [""],
+		"skills": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Git",			
+			"GitHub",
+			"VSCode",
+			"Figma"
+		],
+		"assignments": [
+			"Mettre en place l'environnement de développement : installer Node.js et npm, installer le back-end et le front-end du site, prendre connaissance du Kanban, cloner le repo GitHub, installer les dépendances du dossier Backend, découvrir la documentation Swagger de l’API et tester la route de récupération des travaux de l’architecte, via Swagger ou Postman",
+			"Créer la page de présentation des travaux à partir du HTML existant.",
+			"Récupérer les travaux depuis le back-end en faisant appel à l’API avec fetch afin de récupérer dynamiquement les projets de l’architecte et utiliser JavaScript pour ajouter à la galerie les travaux de l’architecte récupéré.",
+			"Réaliser le filtre des travaux par catégorie.",
+			"Coder la page de connexion pour administrer le site.",
+			"Intégrer la page de connexion en suivant le design de la maquette.",
+			"Authentifier l’utilisateur pour et le rediriger vers la page d’accueil quand la connexion est confirmée ou afficher un message d’erreur quand les informations utilisateur / mot de passe ne sont pas correctes.",
+			"Créer une fenêtre modale pour ajouter des médias dans la galerie.",
+			"Supprimer des travaux existants en communiquant avec l’API (fetch) et en actualisant le DOM.",
+			"Envoyer un nouveau projet au back-end via le formulaire de la modale.",
+			" Traiter la réponse de l’API pour afficher dynamiquement la nouvelle image de la modale en actualisant de manière dynamique le DOM. "						
+		],
+		"ressources": [
+			" Le Figma du design pour créer les nouvelles fonctionnalités.",
+			"Le code back-end pour faire persister les données et tester les fonctionnalités.",
+			"Le code front-end d’origine avec la version statique de la page de l’architecte.",
+			"Le Kanban de la mission, pour voir les tâches qui me sont attribuées."			
+		],
+		"website": "",
+		"github": "https://github.com/jeanrenejaouen/Portfolio-architecte-sophie-bluel",
+		"pdf": "",
+		"pdfName": ""
+	},
+
+	{
+		"id": "c67ab8a12",
+		"title": "Menu Maker by Qwenta",
+		"subtitle": "Site web qui permet aux restaurateurs de créer et publier leur menu.",
+		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/qwenta.png",		
+		"description": "Planifier le développement du site 'Menu Maker' permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement. ",		
+		"context": "Ma mission ne consistait pas à développer un site mais à mener, préparer et planifier le projet de développement d’un site, ainsi qu'à mettre en place une méthodologie de travail agile et en collaboration avec notre Product Owner. ",
+		"skillsAssessed": [""],
+		"skills": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Git",			
+			"GitHub",
+			"VSCode",
+			"Figma"
+		],
+		"assignments": [
+			"Parcourir le document de spécifications fonctionnelles, les maquettes et les user stories.",
+			"Visualiser les maquettes Figma en mode prototype afin de bien comprendre les différents enchaînements des écrans.",
+			"Mettre en place une veille technique dont les sources doivent donc être en lien avec le projet.",
+			"Identifier les besoins techniques.",
+			"Choisir et configurer un outil de gestion de projet (Inoreader).",
+			" Découper le projet en différentes tâches pouvoir coder le projet Menu Maker by Qwenta.",
+			"Estimer les différentes tâches en fonction de la taille.",
+			"Préparer les supports de présentation pour le Product Manager et pour le client. ",
+			"Utiliserez un outil de gestion de projet, comme Jira, pour organiser le projet. Cela vous aidera à suivre le déroulement du projet de manière structurée et efficace."			
+		],
+		"ressources": [
+			"Initiez-vous à la gestion de projet agile",
+			"Gérez votre projet informatique facilement",
+			"Mettre en place un système de veille informationnelle",
+			"Devenez développeur agile",
+			"Appliquez le principe du Domain-Driven Design à votre application",
+			"Réalisez un cahier des charges fonctionnel",
+			"Créez une maquette pour le développement web",
+			"Créez une maquette web avec Figma",
+			"Donnez une présentation en entreprise "			
+		],
+		"website": "",
+		"github": "https://github.com/jeanrenejaouen/Menu-Maker-By-Qwenta",
+		"pdf": "",
+		"pdfName": ""
+	},
+
+	{
+		"id": "c67ab8a13",
+		"title": "Kasa",
+		"subtitle": "Plateforme web de location d’appartements entre particuliers.",
+		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/kasa.png",		
+		"description": "Développer la nouvelle plateforme web de Kasa un des leaders de la location d’appartements entre particuliers en France. ",		
+		"context": "Mon objectif était de démarrer le projet React et de développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !), les contraintes fonctionnelles et techniques. ",
+		"skillsAssessed": [""],
+		"skills": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Git",			
+			"GitHub",
+			"VSCode",
+			"Figma",
+			"React"
+		],
+		"assignments": [
+			"Installer l’application React, initialiser le projet avec Create React App ainsi que le repo GitHub.",
+			" Installer React Router et ses dépendances.",
+			"Créer la logique de routage et les différentes pages de l’application.",
+			"Créez la page d’accueil avec les composants banner et card.",
+			" Créez la page À propos avec un composant Collapse.",
+			"Créez la page d’erreur et toute route inexistante doit mener à la page d’erreur.",
+			"Créez le carrousel de la page de logement avec un composant Slideshow.",
+			"Finalisez la page de logement (carrousel fonctionnel).",
+			"Gérez l’erreur sur l’id d’une propriété (rediriger vers la page d’erreur en cas d’id incorrect)."			
+		],
+		"ressources": [
+			"Débutez avec React",
+			" Créez une application React complète",
+			"Ecrivez la documentation technique de votre projet "			
+		],
+		"website": "",
+		"github": "https://github.com/jeanrenejaouen/projet-8-kasa",
+		"pdf": "",
+		"pdfName": ""
+	},
+
+	{
+		"id": "c67ab8a14",
+		"title": "Nina Carducci",
+		"subtitle": "Portfolio d'une photographe passionnée.",
+		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/ninacarducci.png",		
+		"description": "Optimisation globale du site de la photographe Nina Carducci (performances, SEO, accessibilité, référencement local, réseaux sociaux). ",		
+		"context": "Faire une optimisation globale du site tant sur les performances que sur le SEO. Mettre en place le référencement local en utilisant Schema.org. Ajouter les metas pour les réseaux sociaux. Faire les modifications liées à l’accessibilité du site.Produire un rapport d’optimisation présentant toutes vos actions et leur impact.",
+		"skillsAssessed": [""],
+		"skills": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Git",			
+			"GitHub",
+			"VSCode",
+			"Figma",
+			"React"
+		],
+		"assignments": [
+			"Réaliser un audit du code avec Lighthouse.",
+			"Lister les optimisations qui peuvent être réalisées grâce à l’audit Lighthouse et les points relevés en examinant le code source (structure du HTML, etc.)..",
+			"Optimiser les performances du site afin d’obtenir le rapport Lighthouse au vert sur la partie performances (note supérieure ou égale à 90 %).",
+			"Optimiser le SEO technique afin d’obtenir le rapport Lighthouse au vert sur la partie SEO (note supérieure ou égale à 90 %).",
+			"Ajouter le référencement local et réseaux sociaux en utilisant les microdonnées Schema.org et les balises meta liées aux principaux réseaux sociaux, comme les metas OpenGraph pour Facebook, et les Twitter Cards.",
+			"Utiliser Google Rich Snippet pour tester le référencement local.",
+			"Corriger l’accessibilité afin d’avoir le rapport Lighthouse au vert sur la partie accessibilité (note supérieure ou égale à 90 %). Utiliser l’extension WAVE Evaluation Tool pour Google Chrome pour vérifier l’accessibilité du site",
+			"Générer les rapports finaux (rapport d’optimisation complété et le rapport Lighthouse au vert (note supérieure ou égale à 90 %) sur les 3 axes (performances, accessibilité, SEO))."			
+		],
+		"ressources": [
+			" L'audit du site de Nina Carducci effectué avec Lighthouse.",
+			"Le code du site initial sur GitHub.",
+			"Un modèle de rapport d’optimisatio. "			
+		],
+		"website": "https://jeanrenejaouen.github.io/ninacarducci.mod/",
+		"github": "https://github.com/jeanrenejaouen/ninacarducci.mod",
+		"pdf": "",
+		"pdfName": ""
+	},
+
+	{
+		"id": "c67ab8a15",
+		"title": "724events",
+		"subtitle": "Agence d'évènementiel.",
+		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/724.png",		
+		"description": "Débugger le site vitrine d'une agence d'évènementiel. ",		
+		"context": "Ma mission pour ce projet était : La résolution des “issues” listées par l’ancien développeur. La résolution des “erreurs” apparaissant dans la console. La résolution des “erreurs” apparaissant dans les tests unitaires. La finalisation du cahier de recette. L'ajout des tests manquants dans le projet. ",
+		"skillsAssessed": [""],
+		"skills": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Git",			
+			"GitHub",
+			"VSCode",
+			"Figma",
+			"React"
+		],
+		"assignments": [
+			"Mettre en place votre environnement de développement",
+			"Installer Node.js avec une version au moins égale à 16.14.2 LTS / npm 8.5.5.",
+			"Cloner le repository contenant le projet.",
+			"Installer npm.",
+			"Lancer la configuration des packages en suivant le guide inclus dans le README.md.",
+			"Vérifier que chaque commande ne renvoie pas d’erreur.",
+			"Installer et configurer React Dev Tools.",
+			"Exécuter l’application via npm start.",
+			"Lister l’ensemble des bugs et localiser leur provenance dans le code.",
+			"Lancer yarn npm —watch pour consulter l’ensemble des tests restant en échec.",
+			"Valider tous les tests (0 test en failed).",
+			"Rédiger le cahier de recette.",
+			"Écrire 3 tests d’intégration de la page Home.",
+			"Écrire 3 tests unitaires sur des composants ou helpers. "			
+		],
+		"ressources": [
+			"Tester l’interface de votre site",
+			"Déboguez l’interface de votre site internet",
+			"Partagez vos données avec le Contexte et useContext",
+			"Apprenez le behavior driven development (BDD)",
+			"Testez vos applications Front End avec JavaScript"						
+		],
+		"website": "",
+		"github": "https://github.com/jeanrenejaouen/724events",
+		"pdf": "https://jeanrenejaouen.github.io/724events/jaouen_jeanrene_2_cahier%20de%20recette_072024.pdf",
+		"pdfName": "cahier recette"
+	},
+
+	{
+		"id": "c67ab8a16",
+		"title": "ArgentBank",
+		"subtitle": "Nouvelle banque en ligne.",
+		"cover": "https://github.com/jeanrenejaouen/portfolio/raw/main/src/assets/images/ArgentBank.png",		
+		"description": "Développer l'interface utilisateur de l'application bancaire, avec création d'un tableau de bord complet et responsive. ",		
+		"context": "J'ai intégré une nouvelle banque en ligne 'Argent Bank' comme développeur front-end pour mettre en place un tableau de bord des utilisateurs. ",
+		"skillsAssessed": [""],
+		"skills": [
+			"HTML5",
+			"CSS3",
+			"Javascript",
+			"Git",			
+			"GitHub",
+			"VSCode",
+			"Figma",
+			"React",
+			"Redux"
+		],
+		"assignments": [
+			"Créer l’application web complète et responsive avec React.",
+			"Utiliser Redux pour gérer le state de l'ensemble de l'application.",
+			"Mettre en place des bonnes pratiques de Green Code.",
+			"Implémenter les fonctionnalités suivantes : L'utilisateur peut visiter la page d'accueil. L'utilisateur peut se connecter au système. L'utilisateur peut se déconnecter du système. L'utilisateur ne peut voir les informations relatives à son propre profil qu'après s'être connecté avec succès. L’utilisateur ne peut pas modifier son nom ni son prénom, mais il peut modifier son pseudo.",
+			" Imaginer les routes API qui devraient être modélisées du côté back-end afin : de visualiser toutes leurs transactions pour le mois en cours, groupées par compte ; de visualiser les détails d'une transaction dans une autre vue ; d'ajouter, de modifier ou de supprimer des informations sur une transaction"
+		],
+		"ressources": [
+			"Utiliser le state manager Redux pour gérer l’état de vos applications",
+			"Appliquez les principes du Green IT dans votre entreprise",
+			"Adoptez les API REST dans vos projets web "			
+		],
+		"website": "",
+		"github": "https://github.com/jeanrenejaouen/ArgentBank-Website",
+		"pdf": "",
+		"pdfName": ""
+	}
+]

@@ -1,0 +1,27 @@
+.cardskill {
+    width: 150px;
+    background: rgba(153,153,153,.2);
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+.cardskill-Img {
+    
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+.cardskill_contentText {
+    height: 30px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    margin-top: 20px;
+}
+.cardskill_contentImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

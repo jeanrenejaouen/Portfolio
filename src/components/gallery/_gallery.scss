@@ -1,0 +1,38 @@
+.gallery {        
+    width: 93%;
+    margin: 30px;    
+    article {
+        width: 100%;
+        position: relative; 
+        display: grid;  
+        justify-items: center;     
+        button {
+            width: 200px;
+            height: 40px;
+            background-color: blue;
+            border-radius: 20px;
+            border: none;
+            color: white; 
+            cursor: pointer;  
+            margin-top: -100px;
+            z-index: 1;                     
+            position: relative;
+            /* top: 200px; */
+            left: 45px;
+            box-shadow: 5px 5px 10px 5px rgba(15, 15, 15, 0.3); 
+            transition: transform .3s;
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: 600;
+            }
+            &:hover {
+                background-color:chartreuse;                               
+                box-shadow: 10px 10px 10px 10px rgba(15, 15, 15, 0.3); 
+                transition: 0.7s;
+                transform: translateY(-5px);                               
+            }
+        }
+    }   
+}

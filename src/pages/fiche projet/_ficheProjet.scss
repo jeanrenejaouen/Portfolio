@@ -1,0 +1,39 @@
+.projet-btn {  
+    display: flex;
+    justify-content: center;  
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;  gap: 20px;
+
+}    
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 40px;
+        background-color: blue;
+        border-radius: 20px;
+        border: none;
+        color: white; 
+        cursor: pointer;                       
+        /* position: absolute; */
+        top: 200px;
+        left: 420px;
+        box-shadow: 5px 5px 10px 5px rgba(15, 15, 15, 0.3); 
+        transition: transform .3s;
+        
+        
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        
+            &:hover {
+                background-color:chartreuse;                               
+                box-shadow: 10px 10px 10px 10px rgba(15, 15, 15, 0.3); 
+                transition: 0.7s;
+                transform: translateY(-5px);                               
+            } 
+    }
+    
+

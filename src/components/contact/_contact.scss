@@ -1,0 +1,24 @@
+
+.blocIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 90px;   
+}
+
+.blocIcon a {
+        display: flex;
+        align-items: center;     
+}
+
+
+.custom-icon {  
+    color: blue;        
+    margin-left: 0;
+    transition: transform 0.3s; 
+    &:hover {         
+        transition: 0.7s;
+        transform: translateY(-5px); 
+        color:chartreuse;                              
+    } 
+}

@@ -1,0 +1,67 @@
+[
+    {
+        "id": "052024001",
+        "title": "HTML5",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/html-logo.png"
+    },
+    {
+        "id": "052024002",
+        "title": "CSS3",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/css3-logo.png"
+    },
+    {
+        "id": "052024003",
+        "title": "JavaScript",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/javascript-logo.png"
+    },
+    {
+        "id": "052024004",
+        "title": "REACT",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/react-logo.png"
+    },
+    {
+        "id": "052024005",
+        "title": "SASS",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/sass-logo.png"
+    },
+    {
+        "id": "052024006",
+        "title": "Figma",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/figma-logo.png"
+    },
+    {
+        "id": "052024007",
+        "title": "GIT",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/git-logo.png"
+    },
+    {
+        "id": "052024008",
+        "title": "GitHub",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/github-logo.png"
+    },
+    {
+        "id": "052024009",
+        "title": "Responsive",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/responsive-logo.png"
+    },
+    {
+        "id": "0520240010",
+        "title": "SEO",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/seo-logo.png"
+    },
+    {
+        "id": "0520240011",
+        "title": "VSCode",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/vscode.png"
+    },
+    {
+        "id": "0520240012",
+        "title": "Redux",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/redux-logo.png"
+    },
+    {
+        "id": "0520240013",
+        "title": "ReduxTools",
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/reduxtoolkit-logo.png"
+    }
+]
