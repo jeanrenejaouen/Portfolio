@@ -7,7 +7,7 @@
     gap: 30px;
 	border-radius: 20px;
 	background-color: darkgray;
-	@media (width <= 450px) {		
+	@media (width <= 966px) {		
 		flex-direction: column;	
 		width: 77%;	
 		height: 400px;	
@@ -16,13 +16,13 @@
 		width: 400px;
 		height: 250px;
         position:relative;
-		@media (width <= 450px) {		
-			width: 350px;			
+		@media (width <= 966px) {		
+			width: 100%;			
 		}
     }
     &_contentText {
         width: 60%;
-		@media (width <= 450px) {		
+		@media (width <= 966px) {		
 			width: 80%;
 			position: absolute;
 			top: 220px;							
@@ -35,10 +35,12 @@
 		box-shadow: 10px 10px 10px 10px rgba(15, 15, 15, 0.2);
         position:absolute;
 		object-fit: cover;
-		@media (width <= 450px) {		
-			position: inherit;
-			width: 80%;	
+		@media (width <= 450px) {				
 			height: 150px;		
+		}
+		@media (width <= 966px) {		
+			position: inherit;
+			width: 100%;					
 		}
 	}
 }
