@@ -239,8 +239,14 @@
 		],
 		"website": "",
 		"github": "https://github.com/jeanrenejaouen/Menu-Maker-By-Qwenta",
-		"pdf": "",
-		"pdfName": ""
+		"pdf": "https://jeanrenejaouen.github.io/Menu-Maker-By-Qwenta/Présentation.pdf",
+		"pdfName": "Présentation",
+		"pdf2": "https://jeanrenejaouen.github.io/Menu-Maker-By-Qwenta/specifications-techniques.pdf",
+		"pdfName2": "Specif° techniques",
+		"pdf3": "https://jeanrenejaouen.github.io/Menu-Maker-By-Qwenta/Inoreader.pdf",
+		"pdfName3": "Inoreader",
+		"pdf4": "https://jeanrenejaouen.github.io/Menu-Maker-By-Qwenta/Jira.pdf",
+		"pdfName4": "Jira"
 	},
 
 	{
@@ -386,14 +392,15 @@
 			"VSCode",
 			"Figma",
 			"React",
-			"Redux"
+			"Redux",
+			"Swagger & Swagger editor"
 		],
 		"assignments": [
 			"Créer l’application web complète et responsive avec React.",
 			"Utiliser Redux pour gérer le state de l'ensemble de l'application.",
 			"Mettre en place des bonnes pratiques de Green Code.",
 			"Implémenter les fonctionnalités suivantes : L'utilisateur peut visiter la page d'accueil. L'utilisateur peut se connecter au système. L'utilisateur peut se déconnecter du système. L'utilisateur ne peut voir les informations relatives à son propre profil qu'après s'être connecté avec succès. L’utilisateur ne peut pas modifier son nom ni son prénom, mais il peut modifier son pseudo.",
-			" Imaginer les routes API qui devraient être modélisées du côté back-end afin : de visualiser toutes leurs transactions pour le mois en cours, groupées par compte ; de visualiser les détails d'une transaction dans une autre vue ; d'ajouter, de modifier ou de supprimer des informations sur une transaction"
+			" Ecrire les routes API sur Swagger, qui devraient être modélisées du côté back-end afin : de visualiser toutes leurs transactions pour le mois en cours, groupées par compte ; de visualiser les détails d'une transaction dans une autre vue ; d'ajouter, de modifier ou de supprimer des informations sur une transaction"
 		],
 		"ressources": [
 			"Utiliser le state manager Redux pour gérer l’état de vos applications",

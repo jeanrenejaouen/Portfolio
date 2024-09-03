@@ -85,6 +85,24 @@ function FicheProjet() {
                   {currentProjet[0].pdfName}
                 </a>
               )}
+              {currentProjet[0].pdf2 && currentProjet[0].pdf2 !== '' && (
+                <a className="btn" href={currentProjet[0].pdf2} target="_blank" rel="noopener noreferrer">
+                  {/* Ci-dessous utilisation de pdfName du fichier json pour customiser le nom du bouton */}
+                  {currentProjet[0].pdfName2}
+                </a>
+              )}
+              {currentProjet[0].pdf3 && currentProjet[0].pdf3 !== '' && (
+                <a className="btn" href={currentProjet[0].pdf3} target="_blank" rel="noopener noreferrer">
+                  {/* Ci-dessous utilisation de pdfName du fichier json pour customiser le nom du bouton */}
+                  {currentProjet[0].pdfName3}
+                </a>
+              )}
+              {currentProjet[0].pdf4 && currentProjet[0].pdf4 !== '' && (
+                <a className="btn" href={currentProjet[0].pdf4} target="_blank" rel="noopener noreferrer">
+                  {/* Ci-dessous utilisation de pdfName du fichier json pour customiser le nom du bouton */}
+                  {currentProjet[0].pdfName4}
+                </a>
+              )}
             {/* <a href={currentProjet[0].website} target="_blank" rel="noopener noreferrer">Site</a>  */}          
           </div>
             <h2>Contexte</h2>            

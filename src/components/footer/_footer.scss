@@ -7,16 +7,12 @@
 	color: #fff;
 	align-items: center;
 	padding-top: 30px;
-	padding-bottom: 30px;
-	@media (width <= 450px) {		
-			padding-bottom: 65px;
-		}
+	padding-bottom: 30px;	
 	.copyright {
 		font-size: 24px;
 		@media (width <= 450px) {		
-			font-size: 12px;
-			width: 134px;
-			text-align: center;
+			font-size: 14px;
+			padding: 20px;			
 		}
 	}
 }

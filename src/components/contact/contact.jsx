@@ -1,6 +1,7 @@
 import React from "react";
 import  Form  from "../form/form.jsx";
 
+
 import './_contact.scss'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -10,14 +11,17 @@ function Contact() {
 
     return (
       <>
+          <div className="blocIcon">
+            <p>Parlez-moi de votre projet via le formulaire ci-dessous</p>
+          </div>
           <Form /> 
 
-          <div className="blocIcon">
+          {/* <div className="blocIcon">
             <p>Ou ...</p>
-          </div>
+          </div> */}
                     
           <div className="blocIcon">
-            <p>Envoyez-moi un email</p>
+            <p>Ou... Envoyez-moi un email</p>
             <a href="mailto:jeanrenejaouen29@gmail.com">            
               <FontAwesomeIcon icon={faEnvelope} className="custom-icon" size= "2x" />
             </a>

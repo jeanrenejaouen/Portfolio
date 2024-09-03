@@ -21,8 +21,10 @@
 	@media (width <= 768px) {		
 			margin: 35px;
 		}
-	@media (width <= 450px) {		
-			margin: 20px;
+	@media (width <= 450px) {
+		display: flex;
+		flex-direction: column;			
+		margin: 20px;
 		}
 	&-photoProfil-name {
 		display: flex;
@@ -31,11 +33,22 @@
 	}	
 	&-photoProfil {
 		width: 80.76px;
+		@media (width <= 450px) {		
+			width: 40px;	
+		}
 	}
 	&-name {
 		font-weight: 700;
 		font-size: 24px;
 		color: black;
+		@media (width <= 450px) {		
+			font-size: 20px;			
+		}
+	}
+	&-content {
+		@media (width <= 450px) {		
+			margin-left: -20px;	
+		}
 	}
 	&-content a {
 		text-decoration: none;
@@ -47,7 +60,7 @@
 			height: 130px;
 		}
 		@media (width <= 450px) {		
-			height: 100px;
+			height: 80px;
 		}
 	}
 	.nav {
@@ -58,8 +71,10 @@
 		@media (width <= 768px) {		
 			gap: 20px;
 		}
-		@media (width <= 450px) {		
+		@media (width <= 450px) {
+			width: 320px;				
 			gap: 20px;	
+			padding-left: 0;
 		}
 		a {			
 			text-decoration: none;			

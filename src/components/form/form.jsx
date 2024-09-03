@@ -1,6 +1,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import './form.scss';
+import emailjs from '@emailjs/browser'
 
 /* import { yupResolver } from '@hookform/resolvers/yup'; */
 /* importer tout yup (* as yup) */
@@ -14,9 +15,29 @@ function Form() {
   
 
   // Fonction de soumission du formulaire
-  const onSubmit = data => {
-    console.log(data); // Affichage des données du formulaire dans la console    
+  const onSubmit = (data, r) => {
+    alert("Merci pour votre message, il sera traité au plus vite");
+    const templateId = "template_2ht0r5g";
+    const serviceId = "service_d9jqii3";    
+
+    sendFeedback(serviceId, templateId, {
+      lastName: data.lastName,
+      firstName: data.firstName,
+      email: data.email,
+      message: data.message,
+      reply_to: r.target.reset(),
+    });
+     
   };
+
+  const sendFeedback = (serviceId, templateId, variables) => {
+    emailjs
+    .send(serviceId, templateId, variables, 'wGh1MsOkbBjUNqVuh')
+    .then((res) => {
+      console.log ('success');
+    })
+    .catch((err) => console.error ('oups'));
+  }  
 
   // Fonction pour réinitialiser le formulaire
   const onReset = () => {
