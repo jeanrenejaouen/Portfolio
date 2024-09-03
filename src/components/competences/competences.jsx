@@ -10,7 +10,7 @@ function Competences() {
   return (
     <div className="comp">
         {Skills.map((skill) => ( 
-            <> 
+             <>  
                 <article key={skill.id}>                       
                     <CardSkill image={skill.picture} title={skill.title} />  
                 </article> 
