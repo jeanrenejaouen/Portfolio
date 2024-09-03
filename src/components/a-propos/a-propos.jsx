@@ -13,7 +13,7 @@ function APropos() {
         <p>
         Après de nombreuses années dans le secteur automobile, j'ai décidé de me reconvertir en tant que développeur 
         front-end. Passionné par la création d'applications web et par les nouvelles technologies, j'ai d'abord suivi une 
-        formation à distance sur Wordpress que j'ai complétée par une formation d'intégrateur web chez Openlassrooms. 
+        formation à distance sur Wordpress que j'ai complétée par une formation d'intégrateur web chez Openclassrooms. 
         Aujourd'hui je suis ravi de pouvoir travailler sur des projets variés et de suivre les évolutions du secteur pour 
         proposer des fonctionnalités innovantes.
         En travaillant en freelance, je peux désormais consacrer davantage de temps à mes enfants, une opportunité que je
