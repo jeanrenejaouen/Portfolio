@@ -2,67 +2,67 @@
     {
         "id": "052024001",
         "title": "HTML5",
-        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/html-logo.webp"
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/html-logo.webp"        
     },
     {
         "id": "052024002",
         "title": "CSS3",
-        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/css3-logo.png"
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/css3-logo.webp"
     },
     {
         "id": "052024003",
         "title": "JavaScript",
-        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/javascript-logo.png"
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/javascript-logo.webp"
     },
     {
         "id": "052024004",
         "title": "REACT",
-        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/react-logo.png"
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/react-logo.webp"
     },
     {
         "id": "052024005",
         "title": "SASS",
-        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/sass-logo.png"
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/sass-logo.webp"
     },
     {
         "id": "052024006",
         "title": "Figma",
-        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/figma-logo.png"
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/figma-logo.webp"
     },
     {
         "id": "052024007",
         "title": "GIT",
-        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/git-logo.png"
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/git-logo.webp"
     },
     {
         "id": "052024008",
         "title": "GitHub",
-        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/github-logo.png"
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/github-logo.webp"
     },
     {
         "id": "052024009",
         "title": "Responsive",
-        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/responsive-logo.png"
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/responsive-logo.webp"
     },
     {
         "id": "0520240010",
         "title": "SEO",
-        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/seo-logo.png"
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/seo-logo.webp"
     },
     {
         "id": "0520240011",
         "title": "VSCode",
-        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/vscode.png"
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/vscode.webp"
     },
     {
         "id": "0520240012",
         "title": "Redux",
-        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/redux-logo.png"
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/redux-logo.webp"
     },
     {
         "id": "0520240013",
         "title": "ReduxTools",
-        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/reduxtoolkit-logo.png"
+        "picture": "https://raw.githubusercontent.com/jeanrenejaouen/portfolio/main/src/assets/logos/reduxtoolkit-logo.webp"
     },
     {
         "id": "0520240013",
