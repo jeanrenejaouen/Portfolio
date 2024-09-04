@@ -20,9 +20,15 @@ function Gallery() {
     //pour chaque projet rendre un article "cliquable"
     //se connecter au composant "ficheprojet/id"
     //Le composant "Card" est appelé avec 3 paramètres (une image, un titre et la description)
+
+
+    /* Erreur console : Warning: Each child in a list should have a unique "key" prop.
+    Remplacer contenu Ligne 31 à 44
+    Par contenu Ligne 46 à 57 */
+
     return (
         <div className="gallery">
-            {Projets.map((projet) => ( 
+            {/* {Projets.map((projet) => ( 
                 <>
                     <article key={projet.id}>                       
                         <Card image={projet.cover} title={projet.title} description={projet.description} />
@@ -31,11 +37,22 @@ function Gallery() {
                             <NavLink to={`/ficheProjet/${projet.id}`}>En savoir plus</NavLink>
                         </button>
 
-                    </article> 
-
-                   
+                    </article>                   
                 </>
-            ))}
+            ))} */}
+
+            {Projets.map((projet, index) => ( 
+                            
+                                <article key={index}>                       
+                                    <Card image={projet.cover} title={projet.title} description={projet.description} />
+
+                                    <button className="button">
+                                        <NavLink to={`/ficheProjet/${projet.id}`}>En savoir plus</NavLink>
+                                    </button>
+
+                                </article>                           
+                            
+                        ))}
 
         </div>
     );
