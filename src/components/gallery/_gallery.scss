@@ -32,7 +32,8 @@
                 font-weight: 600;
             }
             &:hover {
-                background-color:chartreuse;                               
+                /* background-color:chartreuse; */ 
+                background-color:rgb(236, 8, 19);                               
                 box-shadow: 10px 10px 10px 10px rgba(15, 15, 15, 0.3); 
                 transition: 0.7s;
                 transform: translateY(-5px);                               
