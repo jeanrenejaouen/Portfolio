@@ -17,31 +17,31 @@ function Accueil() {
     <>
         <Banner image={AccueilImage} altText="Banner" title="BIENVENUE SUR MON PORTFOLIO" text="Je suis développeur web front-end junior" />
         
-          <h2 id="competences">MES COMPETENCES          
-            <a href= "#" title="RETOUR"> 
-              <FontAwesomeIcon icon={faHouse} className="custom-icon" />
-            </a>
+          <h2 id="competences">MES COMPETENCES            
+              <a href= "#" title="Retour" aria-label="Retour">              
+                <FontAwesomeIcon icon={faHouse} className="custom-icon" />
+              </a>                          
           </h2>
           <Competences />
                  
-          <h2 id="a-propos">A PROPOS DE MOI
-            <a href= "#" title="RETOUR">  
-              <FontAwesomeIcon icon={faHouse} className="custom-icon" />
-            </a>
+          <h2 id="a-propos">A PROPOS DE MOI            
+              <a href= "#" title="Retour" aria-label="Retour">               
+                <FontAwesomeIcon icon={faHouse} className="custom-icon" />
+              </a>            
           </h2>
           <APropos />
         
-          <h2 id="projets">PROJETS REALISES
-            <a href= "#" title="RETOUR">
-              <FontAwesomeIcon icon={faHouse} className="custom-icon" />
-            </a> 
+          <h2 id="projets">PROJETS REALISES            
+              <a href= "#" title="Retour" aria-label="Retour">            
+                <FontAwesomeIcon icon={faHouse} className="custom-icon" />
+              </a>            
           </h2>
             <Gallery />            
                
-          <h2 id="contact">CONTACT
-            <a href= "#" title="RETOUR">
-              <FontAwesomeIcon icon={faHouse} className="custom-icon" /> 
-            </a>
+          <h2 id="contact">CONTACT            
+              <a href= "#" title="Retour" aria-label="Retour">              
+                <FontAwesomeIcon icon={faHouse} className="custom-icon" /> 
+              </a>            
           </h2>
           <Contact />
         

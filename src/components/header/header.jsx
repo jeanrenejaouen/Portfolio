@@ -30,16 +30,16 @@ function Header() {
             <li>
             {/* <Link to="#competences">Compétences</Link> */}
             {/* <Link to="#competences">Compétences</Link> */}
-            <a href="/#competences">Compétences</a>
+            <a href="/#competences" aria-label="Aller à Compétences">Compétences</a>
             </li>
             <li>
-              <a href="/#a-propos">A Propos</a>
+              <a href="/#a-propos" aria-label="Aller à A propos">A Propos</a>
             </li>
             <li>
-              <a href="/#projets">Projets</a>
+              <a href="/#projets" aria-label="Aller à Projets">Projets</a>
             </li>
             <li>
-              <a href="/#contact">Contact</a>
+              <a href="/#contact" aria-label="Aller à Contact">Contact</a>
             </li>
           </ul>
         </nav>

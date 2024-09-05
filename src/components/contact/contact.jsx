@@ -22,7 +22,7 @@ function Contact() {
                     
           <div className="blocIcon">
             <p>Ou... Envoyez-moi un email</p>
-            <a href="mailto:jeanrenejaouen29@gmail.com">            
+            <a href="mailto:jeanrenejaouen29@gmail.com" aria-label="Me contacter par email">            
               <FontAwesomeIcon icon={faEnvelope} className="custom-icon" size= "2x" />
             </a>
           </div>  

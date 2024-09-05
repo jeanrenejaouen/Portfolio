@@ -10,9 +10,7 @@ import emailjs from '@emailjs/browser'
 function Form() {
   // Utilisation de useForm pour gérer le formulaire
   /* const { register, handleSubmit, formState: { errors }, setError, reset } = useForm(); */
-  const { register, handleSubmit, formState: { errors }, reset } = useForm(); 
-  
-  
+  const { register, handleSubmit, formState: { errors }, reset } = useForm();  
 
   // Fonction de soumission du formulaire
   const onSubmit = (data, r) => {
@@ -47,7 +45,7 @@ function Form() {
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="form-container">
         <div>
-            <label>Nom :</label>
+            <label for="lastName">Nom :</label>
             <input
             type="text"
             className="medium-input"
@@ -58,7 +56,7 @@ function Form() {
             {errors.lastName && <span>{errors.lastName.message}</span>}
         </div>
         <div>
-            <label>Prénom :</label>
+            <label for="firstName">Prénom :</label>
             <input
             type="text"
             className="medium-input"
@@ -70,7 +68,7 @@ function Form() {
         </div>
        
         <div>
-            <label>Email :</label>
+            <label for="email">Email :</label>
             <input
             type="email"
             className="long-input"

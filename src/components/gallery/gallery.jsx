@@ -45,11 +45,11 @@ function Gallery() {
                             
                                 <article key={index}>                       
                                     <Card image={projet.cover} title={projet.title} description={projet.description} />
-
-                                    <button className="button">
-                                        <NavLink to={`/ficheProjet/${projet.id}`}>En savoir plus</NavLink>
-                                    </button>
-
+                                    <NavLink to={`/ficheProjet/${projet.id}`}>
+                                        <button className="button">
+                                            En savoir plus
+                                        </button>
+                                    </NavLink>
                                 </article>                           
                             
                         ))}
