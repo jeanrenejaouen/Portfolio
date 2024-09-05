@@ -5,7 +5,7 @@ import ProjetContext from '../../components/Pcontext/Pcontext.jsx'
 import ProjetRessources from '../../components/Pressources/Pressources.jsx'
 /* import ProjetSkillsAssessed from '../../components/PskillsAssessed/PskillsAssessed.jsx' */
 import ProjetSkills from '../../components/Pskills/Pskills.jsx'
-import AccueilImage from '../../assets/images/imgBanner.png'
+import AccueilImage from '../../assets/images/imgBanner.webp'
 import { useParams } from 'react-router-dom'
 import Error from '../../pages/error/error.jsx'
 import './_ficheProjet.scss'
