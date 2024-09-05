@@ -15,16 +15,17 @@
             background-color: blue;
             border-radius: 20px;
             border: none;
+            font-size: larger;
             color: white; 
             cursor: pointer;  
             margin-top: -100px;
             z-index: 1;                     
             position: relative;
-            /* top: 200px; */
-            left: 45px;
+            top: -90px;
+            left: 50px;
             box-shadow: 5px 5px 10px 5px rgba(15, 15, 15, 0.3); 
             transition: transform .3s;
-             
+            
             a {
                 /* color: white; */
                 color: white;
@@ -42,21 +43,38 @@
     }   
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1450px) {
     .gallery article button {       
-        left: 150px;}
+        left: 65px;}
 }
-@media (max-width: 966px) {
+@media (max-width: 1400px) {
     .gallery article button {       
-        left: 0;
-        top: -130px;
+        left: 80px;        
     }
 }
-@media (max-width: 700px) {	
+@media (max-width: 1300px) {	
     .gallery article button {	        
-        top: -135px}
+        left: 95px;}
 }
-@media (max-width: 450px) {	
+@media (max-width: 1270px) {	
     .gallery article button {	       
-        top: -165px}
+        left: 110px;}
+}
+@media (max-width: 1200px) {	
+    .gallery article button {	       
+        left: 120px;}
+}
+@media (max-width: 1160px) {	
+    .gallery article button {	       
+        left: 130px;}
+}
+@media (max-width: 1100px) {	
+    .gallery article button {	       
+        left: 140px;}
+}
+@media (max-width: 966px) {	
+    .gallery article button {
+        left: 0;       
+        top: -80px;
+    }
 }
