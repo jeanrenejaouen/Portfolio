@@ -4,7 +4,7 @@ import './_cardskill.scss'
 function CardSkill ({image, title}) {    
     
     return (
-        // retourner une carte avec image, titre et description
+        // retourner une carte de compétence avec image et titre
         <div className="cardskill">
             <div className="cardskill_contentImg">
                 <img className="cardskill-Img" src={image} alt={title}/>

@@ -50,11 +50,10 @@ function FicheProjet() {
 
   return (
       <>   
-        {/* Afficher 'imgBanner.png' nommée 'AccueilImage' provenant du fichier image pour avoir la même
+        {/* Afficher 'imgBanner.webp' nommée 'AccueilImage' provenant du fichier image pour avoir la même
         image de fond que sur la bannière de la page d'accueil*/}
         {/* Afficher le titre du projet courant */}
         {/* Afficher le sous-titre du projet courant */}
-
         <Banner  image={AccueilImage} altText="Banner" 
         title={currentProjet[0].title} 
         text={currentProjet[0].subtitle}/>         
@@ -132,8 +131,6 @@ function FicheProjet() {
         
       </>
       
-
-
     )}
   
   export default FicheProjet

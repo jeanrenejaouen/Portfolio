@@ -8,11 +8,18 @@ import emailjs from '@emailjs/browser'
 /* import * as yup from 'yup'; */
 
 function Form() {
-  // Utilisation de useForm pour gérer le formulaire
-  /* const { register, handleSubmit, formState: { errors }, setError, reset } = useForm(); */
-  const { register, handleSubmit, formState: { errors }, reset } = useForm();  
 
-  // Fonction de soumission du formulaire
+  /* Configuration du formulaire */ 
+  const { register, handleSubmit, formState: { errors }, reset } = useForm();  
+  /*
+    useForm : C'est un hook de react-hook-form qui permet de gérer facilement l'état des formulaires.
+    register : Permet d'enregistrer les champs du formulaire.
+    handleSubmit : Fonction qui gère la soumission du formulaire.
+    errors : Un objet qui contiendra les erreurs de validation des champs du formulaire.
+    reset : Fonction qui permet de réinitialiser le formulaire.
+*/
+
+  // Fonction de soumission du formulaire  
   const onSubmit = (data, r) => {
     alert("Merci pour votre message, il sera traité au plus vite");
     const templateId = "template_2ht0r5g";
@@ -25,9 +32,17 @@ function Form() {
       message: data.message,
       reply_to: r.target.reset(),
     });
+    /* 
+    onSubmit : Fonction qui est appelée lors de la soumission du formulaire. Elle prend en paramètres les données du formulaire (data)
+    et éventuellement un évènement (r).
+    alert : Affiche un message à l'utilisateur après l'envoi du formulaire.
+    Les variables templateId et serviceId sont utilisées par EmailJS pour identifier le modèle de l'e-mail et le service d'envoi 
+    respectifs.
+    sendFeedback est appelée pour envoyer l'email en utilisant les données du formulaire.
+  */
      
   };
-
+  /* Envoi de Feedback */
   const sendFeedback = (serviceId, templateId, variables) => {
     emailjs
     .send(serviceId, templateId, variables, 'wGh1MsOkbBjUNqVuh')
@@ -36,12 +51,25 @@ function Form() {
     })
     .catch((err) => console.error ('oups'));
   }  
+  /* 
+    Cette fonction utilise la bibliothèque EmailJS pour envoyer l'email.
+    Les paramètres nécessaires pour l'envoi (serviceId, templateId et variables) sont passés.
+    En cas de succès, elle logge "success" dans la console, sinon elle logge une erreur.
+  */
 
   // Fonction pour réinitialiser le formulaire
   const onReset = () => {
     reset();
   };
+  /* La fonction onReset appelle reset() pour réinitialiser tous les champs du formulaire à leur état initial. */
 
+  /* Structure du formulaire */
+  /* 
+    Le formulaire utilise handleSubmit(onSubmit) pour gérer les soumissions.
+    Des champs tels que le nom, le prénom, l'email, et un message sont créés avec des validations, affichant des messages d'erreur 
+    en cas de problème.
+    Il y a également un bouton pour soumettre le formulaire (Ligne 124) et un autre pour réinitialiser les champs (Ligne 125).
+  */
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="form-container">
         <div>

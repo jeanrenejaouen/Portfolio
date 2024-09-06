@@ -55,7 +55,7 @@
 			"Réaliser une première « card » présente dans «Hébergements à Marseille » (utiliser une largeur d'image en “%” et la propriété object-fit)",
 			"Gérer l’affichage des “cards” du conteneur “Hébergements à Marseille” (utiliser Flexbox et une largeur d'image en “%”)",
 			"Intégrer le conteneur “Activités à Marseille”",
-			" Implémenter le footer avec Flexbox",
+			"Implémenter le footer avec Flexbox",
 			"Mettre en place le responsive design (respecter les deux media queries définies : 1024px pour l’affichage tablette et 768px pour l’affichage mobile) "
 		],
 		"ressources": [

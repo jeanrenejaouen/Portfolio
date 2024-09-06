@@ -1,14 +1,11 @@
 import React from 'react'
-// NavLink est similaire à Link, mais avec la possibilité d'ajouter des attributs de style supplémentaires à l'élément
 import {Link} from 'react-router-dom'
 import PhotoProfil from '../../assets/images/photo-profil.png'
 import './_header.scss'
 
 function Header() {
     return (
-      // afficher un <header> comprenant un logo et une barre de navigation
-      //  avec 2 liens vers les pages "A propos" et "Accueil".
-      
+      // afficher un <header> comprenant un logo et une barre de navigation     
 
       <header className="header">
         <div className="header-content">            
